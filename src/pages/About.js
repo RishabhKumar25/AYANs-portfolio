@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
 import Button from '../components/Button';
-import AboutImg from '../assets/images/about-page-img.png';
+import AboutImg from '../assets/images/about-page-img.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -81,15 +81,15 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Ayan Khan</span>
+                Hi, I am <span>Rishabh Karn</span>
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
-                  try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  I am from New Delhi, India. A place of beauty and nature.
+                  Since my childhood, i love art and design. I always try to
+                  design stuff with my unique point of view. I also love to
+                  create things that can be usefull to others.
                   <br /> <br />
                   I started coding since I was in high school. Coding is also an
                   art for me. I love it and now I have the opportunity to design
@@ -103,7 +103,9 @@ export default function About() {
                   place.
                 </PText>
               </div>
-              <Button btnText="Download CV" btnLink="#" />
+              <a href="https://drive.google.com/file/d/1ksOJ-4LspUHhrpkKPzcGwIif7lT-CkBk/view?usp=sharing">
+                <Button btnText="Download CV" exact btnLink="" />
+              </a>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />
@@ -115,16 +117,16 @@ export default function About() {
 
               <AboutInfoItem
                 title="School"
-                items={['Nasirabad Govt. High School, Chattogram']}
+                items={['Brilliant Public School , Madhubani , Bihar']}
               />
               <AboutInfoItem
                 title="Collage"
-                items={['BAF Shaheen College Chattogram']}
+                items={['Chandigarh University , Chandigarh , Punjab']}
               />
-              <AboutInfoItem
+              {/* <AboutInfoItem
                 title="Varsity"
                 items={['University Of Chitiagong']}
-              />
+              /> */}
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
@@ -139,23 +141,40 @@ export default function About() {
               />
               <AboutInfoItem
                 title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                items={['Photoshop', 'Illustrator']}
+              />
+              <AboutInfoItem
+                title="Programming"
+                items={['C', 'C++', 'Python']}
+              />
+            </div>
+
+            <div className="about__info__item">
+              <h1 className="about__info__heading">Experience</h1>
+
+              <AboutInfoItem
+                title="May 2021 - "
+                items={['Coding Team Lead At Binary Cumates']}
+              />
+              <AboutInfoItem
+                title="March 2021"
+                items={['Coding team Coordinator At Binary Cumates ']}
               />
             </div>
             <div className="about__info__item">
-              <h1 className="about__info__heading">Experiences</h1>
+              <h1 className="about__info__heading">Personal Achievments</h1>
 
               <AboutInfoItem
-                title="2010-2012"
-                items={['junior developer at web Cifar']}
+                title="July 2021"
+                items={['Host Of Poetry Night Event By BCM']}
               />
               <AboutInfoItem
-                title="2012-2016"
-                items={['Front end developer at web Cifar ']}
+                title="May 2021"
+                items={['Mentored 150+ Students For Web Dev Bootcamp By BCM ']}
               />
               <AboutInfoItem
-                title="2016-"
-                items={['Freelance web Developer']}
+                title="Dec 2020"
+                items={['Mentored 100+ Students For C++ Bootcamp By Modifiers']}
               />
             </div>
           </div>

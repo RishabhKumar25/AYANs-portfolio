@@ -1,45 +1,57 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
-import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+
+// import UTrackerImg from '../images/utracker.jpg';
+import port from '../images/port.png';
+import bootcamp from '../images/bootcamp.jpg';
+import daysodcode from '../images/daysofcode.jpg';
+import clone from '../images/clone.png';
+import bank from '../images/bank.png';
+import game from '../images/game.png';
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Google Keep Clone',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
-    img: UTrackerImg,
+      'A React App which will help you to remember all you important works. ',
+    img: clone,
+  },
+
+  {
+    id: uuidv4(),
+    name: 'Car Game',
+    desc:
+      'This simple car racing game has been developed by me about a year ago . This game is made by using Vanilla Javascript',
+    img: game,
+  },
+
+  {
+    id: uuidv4(),
+    name: 'Portfolio Website',
+    desc:
+      'My portfolio website made by using React. This website will showcase my skills and my recent works',
+    img: port,
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Bank Management Sytem',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'A C++ project of Bank Managemnet System. It will help bank officials to easily store and manage user information',
+    img: bank,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: '10 Days Of Code',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'A coding event for learners where they had learnt basics and implementations of different coding concepts . This event was mentored by me and more than 100 students participated in this.',
+    img: daysodcode,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: 'Website Development Bootcamp',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
-  },
-  {
-    id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+      'In this bootcamp more than 200 students have been mentored by me and they have learnt the basics of web development and the future they can make in this field.',
+    img: bootcamp,
   },
 ];
 

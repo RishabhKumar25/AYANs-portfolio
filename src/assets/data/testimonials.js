@@ -1,27 +1,27 @@
 const testimonials = [
   {
     id: 1,
-    name: 'Shaif Arfan',
-    title: 'CEO',
-    org: 'WEB CIFAR',
+    name: 'Ayan hazra',
+    title: 'Founder',
+    org: 'Binary Cumates',
     desc:
-      'Ayan is a person of commitment. He is really good at what he is doing. I really like his work. Especially the unique point of view of designing.',
+      'Rishabh is a person of commitment . He know what to do and amazingly he is always a bit ahead of time , means he will finish the work before the deadline',
   },
   {
     id: 2,
-    name: 'Fahim Elahe',
+    name: 'Ayan Mishra',
     title: 'Co-founder',
-    org: 'Kreetive',
+    org: 'Binary Cumates',
     desc:
-      'Really amazing communication skills. Always understand what I am trying to achieve. Also, his work is really amazing. Do really high-quality work.',
+      'Amazing skills and wonderful potential to know what actually the client wants. He made a logo for us that is really awesome.',
   },
   {
     id: 3,
-    name: 'Sayed',
-    title: 'Marketing Head',
-    org: 'Eleven Dawn',
+    name: 'Rahul Verma',
+    title: 'Head',
+    org: 'Modifier Science Academy',
     desc:
-      'Really hard-working person. Deliver the work as promised. Planning to work more with this person.',
+      'he is not only involved in development but also a great mentor . He mentored more than 150 students of our institution in 30 days website devlopment bootcamp.',
   },
 ];
 export default testimonials;

@@ -16,6 +16,7 @@ const HeroStyles = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-top: -40px;
   }
   .hero__heading {
     font-size: 2rem;
@@ -94,10 +95,14 @@ const HeroStyles = styled.div`
       }
     }
   }
+  // .herobtn {
+  //   text-align: center;
+  // }
 
   @media only screen and (max-width: 768px) {
     .hero {
       min-height: 750px;
+      margin-top: 0px;
     }
     .hero__heading {
       font-size: 1.4rem;
@@ -112,6 +117,7 @@ const HeroStyles = styled.div`
     .hero__info {
       margin-top: 3rem;
     }
+
     .hero__social {
       left: 0px;
       bottom: -15%;
@@ -154,19 +160,24 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Ayan Khan</span>
+            <span className="hero__name">Rishabh Karn</span>
           </h1>
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance web designer and developer for 4
-              years. I love to design and make new web experiences for the
-              people.
+              I am a website developer as well as <br /> a software developer. I
+              am in this field <br /> from last 2 years. Apart from development
+              <br />, I am also involved in teaching <br /> works.
             </PText>
-            <Button btnText="see my works" btnLink="/projects" />
+            <Button
+              btnText="see my works"
+              btnLink="/projects"
+              className="hero-btn"
+            />
           </div>
+
           <div className="hero__social">
             <div className="hero__social__indicator">
               <p>Follow</p>
@@ -176,25 +187,17 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://www.facebook.com/profile.php?id=100009618543216"
                     target="_blank"
                     rel="noreferrer"
                   >
                     FB
                   </a>
                 </li>
+
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    TW
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://instagram.com/i_m_rishabhkarn/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -203,7 +206,7 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="https://www.linkedin.com/in/rishabh-kumar-1852431ba/"
                     target="_blank"
                     rel="noreferrer"
                   >

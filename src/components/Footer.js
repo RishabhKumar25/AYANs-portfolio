@@ -57,10 +57,10 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ayan Khan</h1>
+          <h1 className="footer__col1__title">Rishabh Karn</h1>
           <PText>
-            A freelance web designer and developer from Chittagong, Bangladesh.
-            I always make websites that have unique designs and also has a good
+            A freelance web designer and developer from New Delhi, India. I
+            always make websites that have unique designs and also has a good
             performance rate.
           </PText>
         </div>
@@ -80,7 +80,7 @@ export default function Footer() {
               },
               {
                 type: 'Link',
-                title: 'Projects',
+                title: 'Works',
                 path: '/projects',
               },
               {
@@ -96,15 +96,15 @@ export default function Footer() {
             heading="Contact Info"
             links={[
               {
-                title: '+88012312',
-                path: 'tel:+88012312',
+                title: '+91 8929679565',
+                path: 'tel:+918929679565',
               },
               {
-                title: 'webcifar@gmail.com',
-                path: 'mailto:webcifar@gmail.com',
+                title: 'karnrishabh25@gmail.com',
+                path: 'mailto:karnrishabh25@gmail.com',
               },
               {
-                title: 'GEC Circle, Chittagong, Bangladesh',
+                title: 'New Delhi , India',
                 path: 'http://google.com/maps',
               },
             ]}
@@ -116,15 +116,15 @@ export default function Footer() {
             links={[
               {
                 title: 'Facebook',
-                path: 'http://facebook.com',
-              },
-              {
-                title: 'Twitter',
-                path: 'http://twitter.com',
+                path: 'https://www.facebook.com/profile.php?id=100009618543216',
               },
               {
                 title: 'Instagram',
-                path: 'http://instagram.com',
+                path: 'https://instagram.com/i_m_rishabhkarn/',
+              },
+              {
+                title: 'Linkedin',
+                path: 'https://www.linkedin.com/in/rishabh-kumar-1852431ba/',
               },
             ]}
           />
@@ -132,12 +132,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Ayan Khan | Designed By{' '}
-            <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-              web cifar
-            </a>{' '}
-          </PText>
+          <PText>© 2021 - Rishabh Karn</PText>
         </div>
       </div>
     </FooterStyle>
